@@ -58,6 +58,27 @@ public class line_compare {
             System.out.println("Line-1 is greater than Line-2");
         }
 
+        // using equals() method
+
+        if (length1.equals(length2)){
+            System.out.println("Both Lines are Equal");
+        }
+        else {
+            System.out.println("Both Lines are not Equal");
+        }
+
+        // using compareTo() method
+
+        if (length1.compareTo(length2) == 0){
+            System.out.println("Both lines are equal");
+        }
+
+        else if (length1.compareTo(length2) == 1){
+            System.out.println("Line1 is greater");
+        }
+        else if (length1.compareTo(length2) == -1){
+            System.out.println("Line2 is greater");
+        }
 
 
     }
